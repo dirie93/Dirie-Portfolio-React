@@ -48,7 +48,7 @@ function Navbar() {
                 </svg>
               </button>
             </div>
-            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
               <div className="flex flex-shrink-0 items-center">
                 <img
                   className="h-16 w-auto" // Increase the height to h-16
@@ -58,10 +58,10 @@ function Navbar() {
               </div>
 
               <div
-                className="hidden sm:ml-6 sm:block"
-                style={{ marginLeft: "62%", marginTop: "1%" }}
+                className="hidden sm:block"
+                // style={{ marginLeft: "62%", marginTop: "1%" }}
               >
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 items-center  h-full">
                   <Link
                     to="/"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
