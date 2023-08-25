@@ -11,7 +11,7 @@ function Home() {
       </div>
 
       <div className="text-center">
-        <h1 className="lg:text-5xl sm:text-3xl font-extrabold mb-4">{text}</h1>
+        <h1 className="lg:text-8xl sm:text-8xl font-extrabold mb-4">{text}</h1>
         <p className="lg:text-lg mb-8 sm:text-3xl text-teal-950 font-bold">
           I'm an aspiring Junior Web Developer with a strong passion for
           crafting dynamic and interactive websites.
