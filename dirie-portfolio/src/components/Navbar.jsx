@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <nav className="bg-gray-800 max-w-full sm:min-w-screen-sm">
+      <nav className="bg-dark-green max-w-full sm:min-w-screen-sm">
         <div className="mx-auto max-w-7xl px-2 sm:px-7 lg:px-6">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -62,6 +62,12 @@ function Navbar() {
                 style={{ marginLeft: "62%", marginTop: "1%" }}
               >
                 <div className="flex space-x-4">
+                  <Link
+                    to="/"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  >
+                    Home
+                  </Link>
                   <Link
                     to="/about"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
