@@ -3,18 +3,18 @@ import React from "react";
 function About() {
   return (
     <div className="bg-green-custom h-screen flex items-center justify-center">
-      <div className="flex justify-center items-center w-full">
+      <div className="flex justify-center items-center w-full  ">
         {/* Image */}
         <img
           src="./cous-cous.jpg"
           alt="kitten"
-          className=" rounded-2xl smallest:w-2/4 xl:w-4/12 laptop:w-3/12 larger:text-2xl md:w-1/4 shadow-lg xl:mr-20"
+          className=" rounded-2xl smallest:w-2/4 xl:w-4/12 laptop:w-3/12 larger:text-2xl md:w-1/4 shadow-lg xl:mr-20 larger:h-96 larger:w-80 larger:mr-4 middle:h-50 middle:w-60 "
         />
         {/* About Box */}
-        <div className="bg-gray-300 p-6 rounded-lg shadow-lg text-center middle:mb-32 w-1/2 md:w-3/4">
+        <div className="bg-gray-300 p-6 rounded-lg shadow-lg text-center middle:mb-32 w-1/2 md:w-3/4 tablet:w-6/12 tablet:ml-9 tablet:mt-14 larger:ml-2 middle:w-22 middle:mt-16 smallest:w-/6  ">
           <h1 className="text-3xl font-bold mb-4 text-gray-900">About Me</h1>
           <ul className="text-gray-700 list-inside pl-6">
-            <li className="mb-2">
+            <li className="mb-2 middle:text-sm">
               <svg
                 className="h-5 w-5 inline text-green-600 mr-2"
                 viewBox="0 0 20 20"
@@ -32,7 +32,7 @@ function About() {
               transition into the tech industry and learn new skills that will
               enable me to create visually stunning and functional websites.
             </li>
-            <li className="mb-2">
+            <li className="mb-2 middle:text-sm">
               <svg
                 className="h-5 w-5 inline text-green-600 mr-2"
                 viewBox="0 0 20 20"
@@ -46,7 +46,7 @@ function About() {
               </svg>
               I am a Spurs Fan
             </li>
-            <li className="mb-2">
+            <li className="mb-2 middle:text-sm">
               <svg
                 className="h-5 w-5 inline text-green-600 mr-2"
                 viewBox="0 0 20 20"
@@ -60,7 +60,7 @@ function About() {
               </svg>
               I have traveled to 9 countries and still counting
             </li>
-            <li className="mb-2">
+            <li className="mb-2 middle:text-sm">
               <svg
                 className="h-5 w-5 inline text-green-600 mr-2"
                 viewBox="0 0 20 20"
@@ -74,7 +74,7 @@ function About() {
               </svg>
               My pet kitten is called Cous-Cous
             </li>
-            <li className="mb-2">
+            <li className="mb-2 middle:text-sm">
               <svg
                 className="h-5 w-5 inline text-green-600 mr-2"
                 viewBox="0 0 20 20"
@@ -88,7 +88,7 @@ function About() {
               </svg>
               I am the eldest of 3 siblings
             </li>
-            <li className="mb-2">
+            <li className="mb-2 middle:text-sm">
               <svg
                 className="h-5 w-5 inline text-green-600 mr-2"
                 viewBox="0 0 20 20"
