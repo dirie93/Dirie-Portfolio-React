@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -20,8 +21,13 @@ function Projects() {
               readings on your location!
             </p>
             <div className="card-actions justify-end m-4 mr-5">
-              <button className="btn btn-primary">Code</button>
-              <button className="btn btn-primary ml-10">Demo</button>
+              {" "}
+              <Link to="https://github.com/dirie93/NowForecast" target="_blank">
+                <button className="btn btn-primary">Code</button>
+              </Link>
+              <Link to="https://dirie93.github.io/NowForecast/" target="_blank">
+                <button className="btn btn-primary ml-10">Demo</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -40,8 +46,16 @@ function Projects() {
               in a single place.
             </p>
             <div className="card-actions justify-end m-4 mr-5">
-              <button className="btn btn-primary">Code</button>
-              <button className="btn btn-primary ml-10">Demo</button>
+              {" "}
+              <Link to="https://github.com/dirie93/SimpleNote" target="_blank">
+                <button className="btn btn-primary">Code</button>
+              </Link>
+              <Link
+                to="https://blooming-temple-03641-7cce5c7dd28b.herokuapp.com/"
+                target="_blank"
+              >
+                <button className="btn btn-primary ml-10">Demo</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -51,19 +65,34 @@ function Projects() {
       <div className="flex flex-wrap gap-4 mt-5 mb-8">
         <div className="card card-compact w-80 bg-base-100 shadow-xl border border-gray-200 p-4 md:w-1/3 lg:w-1/2">
           <figure className="h-56">
-            <img src="./Horizon.svg" alt="Horizon" className="w-full h-full" />
+            <img
+              src="./Horizon.svg"
+              alt="Horiseon-Marketing"
+              className="w-full h-full"
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title text-xl font-semibold">
-              Horizon Marketing
+              Horiseon Marketing
             </h2>
             <p className="text-gray-500">
               A codebase that follows accessibility standards and optimised for
               user accessibility
             </p>
             <div className="card-actions justify-end m-4 mr-5">
-              <button className="btn btn-primary">Code</button>
-              <button className="btn btn-primary ml-10">Demo</button>
+              {" "}
+              <Link
+                to="https://github.com/dirie93/Horiseon-Code-Refactor"
+                target="_blank"
+              >
+                <button className="btn btn-primary">Code</button>
+              </Link>
+              <Link
+                to="https://dirie93.github.io/Horiseon-Code-Refactor/"
+                target="_blank"
+              >
+                <button className="btn btn-primary ml-10">Demo</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,8 +109,19 @@ function Projects() {
               the user is tested on fundementals of the programming language!
             </p>
             <div className="card-actions justify-end m-4 mr-5">
-              <button className="btn btn-primary">Code</button>
-              <button className="btn btn-primary ml-10">Demo</button>
+              {" "}
+              <Link
+                to="https://github.com/dirie93/JavaScript-Quiz"
+                target="_blank"
+              >
+                <button className="btn btn-primary">Code</button>
+              </Link>
+              <Link
+                to="https://dirie93.github.io/JavaScript-Quiz//"
+                target="_blank"
+              >
+                <button className="btn btn-primary ml-10">Demo</button>
+              </Link>
             </div>
           </div>
         </div>
