@@ -21,11 +21,7 @@ function Contact() {
             Contact Me
           </h2>
         </div>
-        <form
-          action="#"
-          method="POST"
-          className="mx-auto mt-16 max-w-xl sm:mt-20"
-        >
+        <form className="mx-auto mt-16 max-w-xl sm:mt-20">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
               <label
@@ -98,11 +94,8 @@ function Contact() {
             <div className="flex gap-x-4 sm:col-span-2"></div>
           </div>
           <div className="mt-10">
-            <button
-              type="submit"
-              className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Let's talk
+            <button className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              <a href="mailto:mdirie19@gmail.com">Let's talk</a>
             </button>
           </div>
         </form>
