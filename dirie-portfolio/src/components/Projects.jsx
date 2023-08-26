@@ -106,7 +106,7 @@ function Projects() {
             </h2>
             <p className="text-gray-500">
               A timed coding quiz with multiple-choice questions using JS, where
-              the user is tested on fundementals of the programming language!
+              the user is tested on fundamentals of the programming language!
             </p>
             <div className="card-actions justify-end m-4 mr-5">
               {" "}
