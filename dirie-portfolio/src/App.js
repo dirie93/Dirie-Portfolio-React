@@ -1,7 +1,7 @@
 // App.js
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import Routes
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./components/Home";
 import About from "./components/About";
@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Dirie-Portfolio-React">
       <div>
         <Navbar />
         <Routes>
