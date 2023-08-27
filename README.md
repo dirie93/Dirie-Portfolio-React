@@ -21,6 +21,11 @@ Below are the technologies that helped me build my application:
 <br>
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+
+## Deployed App
+
+You can find my deployed app [HERE](https://dirie93.github.io/Dirie-Portfolio-React)
+
 ## Contact
 
 Visit my [Github](https://github.com/dirie93/Dirie-Portfolio-React)
