@@ -13,7 +13,7 @@ function Navbar() {
               <Link to="/">
                 <img
                   className="h-16 w-auto"
-                  src="./bitmoji.svg"
+                  src="./images/bitmoji.svg"
                   alt="Your Company"
                 />
               </Link>

@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="bg-green-custom text-gray-800 min-h-screen flex items-center justify-center">
       <div className="w-48 h-48 mb-5">
-        <img src="./bitmoji.svg" alt="me" />
+        <img src="./images/bitmoji.svg" alt="me" />
       </div>
 
       <div className="text-center">

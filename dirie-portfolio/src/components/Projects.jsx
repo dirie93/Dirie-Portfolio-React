@@ -9,7 +9,7 @@ function Projects() {
         <div className="card card-compact w-80 bg-base-100 shadow-xl border border-gray-200 p-4 md:w-1/3 lg:w-1/2">
           <figure className="h-56">
             <img
-              src="./Weather-App.svg"
+              src="./images/Weather-App.svg"
               alt="Weather Project"
               className="w-full h-full"
             />
@@ -34,7 +34,7 @@ function Projects() {
         <div className="card card-compact w-80 bg-base-100 shadow-xl border border-gray-200 p-4 md:w-1/3 lg:w-1/2">
           <figure className="h-56">
             <img
-              src="./Note-taker.svg"
+              src="./images/Note-taker.svg"
               alt="Note-taking app"
               className="w-full h-full"
             />
@@ -66,7 +66,7 @@ function Projects() {
         <div className="card card-compact w-80 bg-base-100 shadow-xl border border-gray-200 p-4 md:w-1/3 lg:w-1/2">
           <figure className="h-56">
             <img
-              src="./Horizon.svg"
+              src="./images/Horizon.svg"
               alt="Horiseon-Marketing"
               className="w-full h-full"
             />
@@ -98,7 +98,11 @@ function Projects() {
         </div>
         <div className="card card-compact w-80 bg-base-100 shadow-xl border border-gray-200 p-4 md:w-1/3 lg:w-1/2">
           <figure className="h-56">
-            <img src="./Quiz2.svg" alt="Shoes" className="w-full h-full" />
+            <img
+              src="./images/Quiz2.svg"
+              alt="Shoes"
+              className="w-full h-full"
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title text-xl font-semibold">

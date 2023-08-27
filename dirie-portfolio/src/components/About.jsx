@@ -6,7 +6,7 @@ function About() {
       <div className="flex justify-center items-center w-full  ">
         {/* Image */}
         <img
-          src="./cous-cous.jpg"
+          src="./images/cous.svg"
           alt="kitten"
           className=" rounded-2xl smallest:w-2/4 xl:w-4/12 laptop:w-3/12 larger:text-2xl md:w-1/4 shadow-lg xl:mr-20 larger:h-96 larger:w-80 larger:mr-4 middle:h-50 middle:w-60 "
         />
