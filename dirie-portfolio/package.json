@@ -1,7 +1,7 @@
 {
   "name": "dirie-portfolio",
   "version": "0.1.0",
-  "homepage": "https://dirie93.github.io/Dirie-Portfolio-React/dirie-portfolio",
+  "homepage": "https://username.github.io/",
   "private": true,
   "dependencies": {
     "@tailwindcss/forms": "^0.5.5",
