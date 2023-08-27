@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Dirie-Portfolio-React/static/css/main.8c594cb3.css",
+    "main.js": "/Dirie-Portfolio-React/static/js/main.c86868d3.js",
+    "static/js/787.eafbe4cc.chunk.js": "/Dirie-Portfolio-React/static/js/787.eafbe4cc.chunk.js",
+    "index.html": "/Dirie-Portfolio-React/index.html",
+    "main.8c594cb3.css.map": "/Dirie-Portfolio-React/static/css/main.8c594cb3.css.map",
+    "main.c86868d3.js.map": "/Dirie-Portfolio-React/static/js/main.c86868d3.js.map",
+    "787.eafbe4cc.chunk.js.map": "/Dirie-Portfolio-React/static/js/787.eafbe4cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c594cb3.css",
+    "static/js/main.c86868d3.js"
+  ]
+}
